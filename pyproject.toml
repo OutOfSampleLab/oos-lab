@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "oos-lab"
+version = "0.4.0"
+description = "Research-grade validation toolkit for systematic trading strategies"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "OutOfSampleLab" }]
+keywords = ["quant", "backtesting", "validation", "overfitting", "sharpe", "deflated", "walk-forward"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/OutOfSampleLab/oos-lab"
+Repository = "https://github.com/OutOfSampleLab/oos-lab"
+Issues = "https://github.com/OutOfSampleLab/oos-lab/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/oos_lab"]
