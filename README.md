@@ -103,6 +103,19 @@ Per-module write-ups live in [`docs/`](docs/): `sharpe`, `psr`,
 `deflated_sharpe`, `walk_forward`, `cpcv`, `pbo`, `haircut`, plus an
 [`overview`](docs/overview.md).
 
+## Pro notebooks
+
+The core library is free and always will be. If you want guided, worked
+applications of this stack, there is a set of paid Jupyter notebooks that
+apply it end to end — a Deflated Sharpe + PBO diagnostic walkthrough, a CPCV
+practitioner pack, a Harvey-Liu multiple-testing haircut pack, and
+regime-conditional validation — available individually or as a bundle:
+
+**[OutOfSampleLab on Polar](https://polar.sh/outofsamplelab)**
+
+Educational and methodological content only. No signals, no advice, no
+performance claims.
+
 ## Roadmap
 
 - v0.5 — bootstrap confidence intervals for the deflated Sharpe.
