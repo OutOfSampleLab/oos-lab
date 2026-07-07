@@ -111,7 +111,7 @@ apply it end to end — a Deflated Sharpe + PBO diagnostic walkthrough, a CPCV
 practitioner pack, a Harvey-Liu multiple-testing haircut pack, and
 regime-conditional validation — available individually or as a bundle:
 
-**[Get the notebooks on Polar](https://polar.sh/checkout/polar_c_FWezkT709pXOxOAnBXidbXqeLn73OV4R2KSV94ThLFt)**
+**[Get the notebooks on Polar](https://buy.polar.sh/polar_cl_Rm45E37zPaunRX8d9M2dqEUl83y9ZOUMz0xgO2UvJjp)**
 
 Educational and methodological content only. No signals, no advice, no
 performance claims.
