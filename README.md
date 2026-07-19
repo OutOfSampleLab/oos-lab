@@ -108,8 +108,11 @@ Per-module write-ups live in [`docs/`](docs/): `sharpe`, `psr`,
 The core library is free and always will be. If you want guided, worked
 applications of this stack, there is a set of paid Jupyter notebooks that
 apply it end to end — a Deflated Sharpe + PBO diagnostic walkthrough, a CPCV
-practitioner pack, a Harvey-Liu multiple-testing haircut pack, and
-regime-conditional validation — available individually or as a bundle:
+practitioner pack, a Harvey-Liu multiple-testing haircut pack,
+regime-conditional validation, and an order-flow regime validation study
+(VPIN/BVC measures, a 36-rule search, and a shuffled-noise control that shows
+why PSR alone cannot catch overfitting) — available individually or as a
+bundle:
 
 **[Get the notebooks on Polar](https://buy.polar.sh/polar_cl_Rm45E37zPaunRX8d9M2dqEUl83y9ZOUMz0xgO2UvJjp)**
 
